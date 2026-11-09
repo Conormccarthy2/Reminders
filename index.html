@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <container>
+      <h1>My reminders</h1>
+      <div class="header">
+        <p class="date" id="date"></p>
+
+        <div class="no-tasks">
+          <p id="no-tasks">0</p>
+          <p>tasks</p>
+        </div>
+      </div>
+      <div class="reminders">
+        <ul></ul>
+      </div>
+      <div class="input">
+        <input id="remindername" placeholder="Enter Reminder" />
+        <input id="reminderdate" placeholder="Enter Date" type="date" />
+        <button id="add">Add</button>
+      </div>
+    </container>
+    <script src="app.js"></script>
+  </body>
+</html>
